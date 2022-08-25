@@ -1,0 +1,12 @@
+{
+  "name": "tipos-de-requisicoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "matheus marins",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
