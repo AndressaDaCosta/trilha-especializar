@@ -123,6 +123,8 @@ const promessa = new Promise((resolve, reject) => {
 return reject('pedido negado!')
 })
 
+
+
 console.log('aguardando')
 
 promessa
