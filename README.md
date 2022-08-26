@@ -1,8 +1,5 @@
-# trilha-especializar
 
-Rocketseat-Discover-Especializar
-
-![a](https://cdn.discordapp.com/attachments/595687430120669242/995440054669410314/Trilha_Especializar_1.png)
+![a](https://github.com/AndressaDaCosta/trilha-especializar-rocketseat/blob/main/rocketseat.png?)
 
 ---
 
@@ -10,7 +7,7 @@ Rocketseat-Discover-Especializar
 
 - Repositório com a documentação do que estou aprendendo no momento, além de que isso me ajuda na fixação do conteúdo .
 
-### Status de Desenvolvimento: Finalizado🔋
+### Status de Desenvolvimento: 🚧🚧🚧🚧👷‍♀️🚧🚧🚧🚧 <!-- Finalizado🔋-->
 
 ---
 
@@ -36,4 +33,3 @@ Rocketseat-Discover-Especializar
 
 ---
 
-🚧🚧🚧🚧👷‍♀️🚧🚧🚧🚧
