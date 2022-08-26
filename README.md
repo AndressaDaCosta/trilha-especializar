@@ -1,6 +1,7 @@
 
-![a](https://github.com/AndressaDaCosta/trilha-especializar-rocketseat/blob/main/rocketseat.png?)
+![a](https://github.com/AndressaDaCosta/trilha-especializar-rocketseat/blob/main/logo_rocketseat.png?raw=true)
 
+Discover ➡️ Trilha Especializar
 ---
 
 ### Sobre o Repositório:
