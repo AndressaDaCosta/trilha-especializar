@@ -8,7 +8,7 @@
 
 - Repositório com a documentação do que estou aprendendo no momento, além de que isso me ajuda na fixação do conteúdo .
 
-### Status de Desenvolvimento: 🚧🚧🚧🚧👷‍♀️🚧🚧🚧🚧 <!-- Finalizado🔋-->
+### Status de Desenvolvimento: Finalizado ✅ <!-- 🚧🚧🚧🚧👷‍♀️🚧🚧🚧🚧-->
 
 > ### Módulos
 >
@@ -18,7 +18,7 @@
 > - [x] Fundamentos do Typescript
 > - [x] Github para times
 > - [x] Transition e Animation
-> - [ ] SQL avançado
+> - [x] SQL avançado
 >
 > ### Compartilhar Conquistas
 >
@@ -176,5 +176,194 @@ CSS Animations é uma ferramenta do CSS que permite criar animações sem a inte
 - forwards - para no ultimo lugar
 - backward - volta para as caracteristicas antes do delay
 - both - começa na primeira chave a acaba na ultima chave
+
+---
+
+- SQL Avançado
+
+  - SQL significa “Structured Query Language”, que nada mais é que uma linguagem de programação criada para lidar com banco de dados baseados em tabelas. Atualmente, o SQL é o grande padrão quando o assunto é banco de dados e muito disso se deve à sua simplicidade.
+
+  ## JOIN
+
+```
+SELECT * FROM funcionarios
+JOIN departamentos
+ON departamentos.id_dept = funcionarios.id_departamento
+```
+
+## JOIN com WHERE
+
+```
+SELECT * FROM funcionarios
+JOIN departamentos
+ON departamentos.id_dept = funcionarios.id_departamento
+WHERE departamentos.id_dept = 2
+
+```
+
+## JOIN especificando campos
+
+```
+SELECT funcionarios.nome, funcionarios.cpf, departamentos.descricao
+FROM funcionarios
+JOIN departamentos
+ON funcionarios.id_departamento = departamentos.id_dept
+
+```
+
+## Alias
+
+```
+SELECT func.nome as "Nome", func.cpf as "CPF", dept.descricao as "Departamento"
+FROM funcionarios as func
+JOIN departamentos as dept
+ON func.id_departamento = dept.id_dept
+
+```
+
+## LEFT OUTER JOIN
+
+```
+SELECT * FROM funcionarios
+LEFT OUTER JOIN departamentos
+ON funcionarios.id_departamento = departamentos.id_dept
+
+SELECT * FROM funcionarios
+LEFT OUTER JOIN departamentos
+ON funcionarios.id_departamento = departamentos.id_dept
+
+```
+
+---
+
+## ORDER BY
+
+```
+SELECT * FROM professor
+ORDER BY materia
+
+decrescente:
+SELECT * FROM professor
+ORDER BY nome DESC
+```
+
+## LIMIT
+
+```
+SELECT * FROM aluno LIMIT 2
+
+```
+
+## OFFSET
+
+```
+<!-- ignora os primeiros que encontrar -->
+
+SELECT * FROm funcionarios
+LIMIT 4 OFFSET 2
+
+```
+
+## COUNT
+
+```
+SELECT COUNT(nome) FROM funcionarios
+
+```
+
+## GROUP BY
+
+```
+SELECT id_departamento, COUNT(id_departamento)
+FROM funcionarios
+
+```
+
+## JOIN, GROUP BY e COUNT juntos
+
+```
+SELECT departamentos.descricao, count(id_departamento)
+FROM funcionarios
+JOIN departamentos
+ON funcionarios.id_departamento = departamentos.id_dept
+GROUP BY departamentos.id_dept
+
+```
+
+## HAVING
+
+```
+
+SELECT departamentos.descricao, count(funcionarios.id_departamento)
+FROM funcionarios
+JOIN departamentos
+ON funcionarios.id_departamento = departamentos.id_dept
+GROUP BY departamentos.id_dept
+<!-- HAVING count(funcionarios.id_departamento) >= 2 -->
+HAVING count(funcionarios.id_departamento) IN (2, 4)
+
+
+```
+
+---
+
+## CREATE TABLE
+
+```
+CREATE TABLE alunos (
+  matricula INTEGER PRIMARY KEY AUTOINCREMENT,
+  nome TEXT,
+  cpf INTEGER UNIQUE,
+  responsavel TEXT
+  )
+
+
+CREATE TABLE professores (
+  id_professor INTEGER PRIMARY KEY AUTOINCREMENT,
+  nome TEXT,
+  cpf INTEGER UNIQUE,
+  materia TEXT
+  )
+
+
+CREATE TABLE aulas (
+	id-professor INTEGER,
+  matricula INTEGER,
+  FOREIGN KEY(id_professor) REFERENCES professores(id_professor),
+  FOREIGN KEY(matricula) REFERENCES alunos(matricula)
+  )
+
+
+
+```
+
+## ALTER TABLE
+
+```
+
+ALTER TABLE aluno RENAME TO alunos
+
+ALTER TABLE professor RENAME TO professores
+
+ALTER TABLE aulas RENAME COLUMN id_aluno TO matricula_aluno
+
+```
+
+## DROP TABLE
+
+```
+<!-- apagar tabelas 🚨 -->
+DROP TABLE alunos
+
+DROP TABLE aulas
+
+DROP TABLE professores
+
+
+```
+
+---
+
+🚀🚀 Toda esse conhecimento foi possivel por causa da **Rocketseat**, tudo baseado no ultimo modulo do **Discover**, com ajuda de ótimos professores:**[🧑‍🚀@Jake Gracielly](https://app.rocketseat.com.br/me/jakeliny-gracielly), [🧑‍🚀@Mayk Brito](https://app.rocketseat.com.br/me/maykbrito), [🧑‍🚀@Rodrigo Gonçalves](https://app.rocketseat.com.br/me/rodrigogoncalves).** 🚀🚀[RocketSeat](https://www.rocketseat.com.br/)🚀🚀
 
 ---
