@@ -20,10 +20,7 @@
 > - [x] Transition e Animation
 > - [x] SQL avançado
 >
-> ### Compartilhar Conquistas
->
-> - [ ] Publicar certificado no LinkedIn e compartilhar em um Post
-> - [ ] Compartilhar conquista no canal "compartilhe" do discord
+
 
 ---
 
@@ -363,7 +360,11 @@ DROP TABLE professores
 ```
 
 ---
+![certificado.png](https://github.com/AndressaDaCosta/trilha-especializar-rocketseat/blob/main/certificado%20especializar.png?raw=true)
 
-🚀🚀 Toda esse conhecimento foi possivel por causa da **Rocketseat**, tudo baseado no ultimo modulo do **Discover**, com ajuda de ótimos professores:**[🧑‍🚀@Jake Gracielly](https://app.rocketseat.com.br/me/jakeliny-gracielly), [🧑‍🚀@Mayk Brito](https://app.rocketseat.com.br/me/maykbrito), [🧑‍🚀@Rodrigo Gonçalves](https://app.rocketseat.com.br/me/rodrigogoncalves).** 🚀🚀[RocketSeat](https://www.rocketseat.com.br/)🚀🚀
+[⬇️ Download PDF](https://drive.google.com/file/d/1J41gb6v5gV6b9LWgd64HNvIVeXkRXUUB/view?usp=sharing)
+---
+🚀🚀 Todo esse conhecimento foi possível graças a  **Rocketseat**, tudo baseado no último modulo do **Discover**, com ajuda de ótimos professores:**[👩🏼‍🚀 @Jake Gracielly](https://app.rocketseat.com.br/me/jakeliny-gracielly), [👨🏽‍🚀@Mayk Brito](https://app.rocketseat.com.br/me/maykbrito), [👨🏼‍🚀@Rodrigo Gonçalves Santana](https://app.rocketseat.com.br/me/rodrigogoncalves).** 🚀🚀[RocketSeat](https://www.rocketseat.com.br/)🚀🚀
+
 
 ---
