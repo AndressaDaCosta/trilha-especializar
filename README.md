@@ -2,11 +2,28 @@
 
 ## Discover ➡️ Trilha Especializar
 
+> https://app.rocketseat.com.br/discover/trails/especializar
+
 ### Sobre o Repositório:
 
 - Repositório com a documentação do que estou aprendendo no momento, além de que isso me ajuda na fixação do conteúdo .
 
 ### Status de Desenvolvimento: 🚧🚧🚧🚧👷‍♀️🚧🚧🚧🚧 <!-- Finalizado🔋-->
+
+> ### Módulos
+>
+> - [x] JavaScript assíncrono e Promises
+> - [x] Trabalhando com APIs
+> - [x] Fundamentos do ReactJS
+> - [x] Fundamentos do Typescript
+> - [x] Github para times
+> - [x] Transition e Animation
+> - [ ] SQL avançado
+>
+> ### Compartilhar Conquistas
+>
+> - [ ] Publicar certificado no LinkedIn e compartilhar em um Post
+> - [ ] Compartilhar conquista no canal "compartilhe" do discord
 
 ---
 
@@ -160,6 +177,4 @@ CSS Animations é uma ferramenta do CSS que permite criar animações sem a inte
 - backward - volta para as caracteristicas antes do delay
 - both - começa na primeira chave a acaba na ultima chave
 
-
 ---
-
